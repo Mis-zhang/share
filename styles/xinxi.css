@@ -1,0 +1,91 @@
+.nav {
+  width: 100%;
+  /* padding: .26rem 3%; */
+}
+
+.nav .tab {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.nav .tab .tab_item {
+  width: 33.3333%;
+  padding: .25rem .25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .373rem;
+  color: rgb(102, 102, 102)
+}
+
+.nav .tab .tab_item.curr {
+  /* width: 33.333%; */
+  border-bottom: .053rem solid rgb(108, 163, 35);
+  color: rgb(108, 163, 35);
+}
+
+.nav .content {
+  width: 100%;
+  padding-top: .7rem;
+  /* margin: 0 auto; */
+  position: absolute;
+}
+
+.nav .content .content_item {
+  /* display: none; */
+  width: 95%;
+  margin: 0 auto;
+}
+
+.nav .content .content_item .huiyi,
+.nav .content .content_item .renwu {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: .7rem;
+  /* border-bottom: 1px solid #e4e0e0; */
+}
+
+.nav .content .content_item .huiyi .huiyi_h3,
+.nav .content .content_item .huiyi .renwu_top .renwu_top_h3 {
+  color: rgb(102, 102, 102);
+  font-size: .4rem;
+  margin-bottom: .4rem;
+}
+.nav .content .content_item .huiyi .renwu_top .renwu_top_h3 {
+  width: 7.3rem;
+}
+.nav .content .content_item .huiyi .huiyi_time,
+.nav .content .content_item .huiyi .huiyi_address {
+  color: rgb(153, 153, 153);
+  font-size: .32rem;
+}
+
+.nav .content .content_item .huiyi .huiyi_time {
+  padding-bottom: .266rem;
+}
+
+.nav .content .content_item .huiyi .renwu_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav .content .content_item .huiyi .renwu_top .renwu_top_time {
+  color: rgb(204, 204, 204);
+  font-size: .32rem;
+  line-height: .65rem;
+}
+
+.nav .content .content_item .huiyi .renwu_content {
+  display: flex;
+  flex: 1;
+}
+
+.nav .content .content_item .huiyi .renwu_content .renwu_content_p {
+  color: rgb(153, 153, 153);
+  font-size: .32rem;
+  line-height: .55rem;
+}

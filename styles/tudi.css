@@ -1,0 +1,107 @@
+.section {
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+
+.section .container {
+  padding: .26rem .26rem;
+  height: auto;
+  border-bottom: 1px solid #e4e0e0;
+}
+
+.container .con_bt {
+  width: 100%;
+  /* height: auto; */
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+
+.container .con_bt .con_bt_h3 {
+  color: rgb(77, 77, 77);
+  font-size: .37rem;
+  line-height: .6rem;
+}
+
+.container .con_bt .con_bt_h3 .con_bt_tj {
+  padding: .05rem .2rem;
+  text-align: center;
+  line-height: .453rem;
+  margin-right: .133rem;
+  border: 1px solid rgb(255, 102, 0);
+  border-radius: 50px;
+  font-size: .32rem;
+  color: rgb(255, 102, 0)
+}
+
+.container .con_content {
+  width: 100%;
+  min-height: 2rem;
+  display: flex;
+  padding-top: .2rem;
+}
+
+.con_content .con_content_left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.con_content .con_content_left .con_content_left_h3 {
+  line-height: .55rem;
+  color: rgb(128, 128, 128);
+  font-size: .32rem;
+}
+
+.con_content .con_content_left .con_content_left_bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.con_content .con_content_left .con_content_left_bottom .biaoqian {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .05rem .3rem;
+  font-size: .32rem;
+}
+
+.con_content .con_content_left .con_content_left_bottom .biaoqian.moshi {
+  border: 0.026rem solid rgb(255, 153, 153);
+  color: rgb(255, 153, 153);
+}
+
+.con_content .con_content_left .con_content_left_bottom .biaoqian.meiti {
+  border: 0.026rem solid rgb(0, 153, 255);
+  color: rgb(0, 153, 255);
+}
+
+.con_content .con_content_left .con_content_left_bottom .biaoqian.jingdian {
+  border: 0.026rem solid rgb(108, 163, 35);
+  color: rgb(108, 163, 35);
+}
+
+.con_content .con_content_left .con_content_left_bottom .date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .32rem;
+  color: rgb(204, 204, 204);
+}
+
+.con_content .con_content_right {
+  width: 2.66rem;
+  height: 2rem;
+  margin-left: .53rem;
+  /* display: none; */
+}
+
+.con_content .con_content_right img {
+  width: 100%;
+  height: 100%;
+}
+
+/* ul li {
+  display: none;
+} */

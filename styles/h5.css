@@ -1,0 +1,148 @@
+body {
+  background: #fcfcfc;
+  font-family: 'MicrosoftYaHei';
+}
+.product {
+  margin-bottom: 1rem;
+}
+.section {
+  padding-bottom: 2rem;
+}
+.zm_open {
+  width: 100%;
+  padding:.5333rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zm_open .open_app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.333rem;
+  height: 1.066rem;
+  border: 1px solid rgb(255, 85, 0);
+  color: rgb(255, 85, 0);
+  font-size: .3466rem;
+  border-radius: .6666rem;
+  font-family: 'MicrosoftYaHei';
+}
+
+
+#reading {
+  padding: 0rem .2rem;
+}
+
+.readall_box {
+  position: relative;
+  z-index: 7777;
+  /* padding: 0 0 25px; */
+  margin-top: -2.85rem;
+  text-align: center;
+}
+
+.readall_box .read_more_mask {
+  height: 3rem;
+  background: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  background: -webkit-gradient(linear, 0 top, 0 bottom, from(rgba(255, 255, 255, 0)), to(#fff));
+  background: -o-linear-gradient(bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0))
+}
+
+.read_more_btn {
+  cursor: pointer;
+  font-size: .43rem;
+  color: rgb(255,85,0);
+  background: #fff;
+  line-height: .4rem;
+  padding: .066rem .1333rem;
+  display: block;
+  animation: myfirst 0.8s linear infinite;
+}
+.read_more_btn>i {
+  font-size: .4rem;
+  padding-right: .2rem;
+}
+/* .read_more_btn:hover {
+  background: #de686d;
+  color: #fff;
+} */
+.download {
+  width: 100%;
+  height: 1.855rem;
+  background: rgb(153, 153, 153);
+  position: fixed;
+  bottom: 0rem;
+  left: 0rem;
+  z-index: 8888;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.download .download_left {
+  display: flex;
+  padding-left: .5333rem;
+}
+.download .download_left .download_img{
+ width: 1.4666rem;
+ height: 1.4666rem;
+}
+.download .download_left .download_img img {
+width: 100%;
+}
+.download .download_left .download_title {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: .233rem;
+}
+.download .download_left .download_title .download_h3  {
+ font-size: .4533rem;
+ color: #fff;
+ font-family: 'MicrosoftYaHei';
+}
+.download .download_left .download_title .download_tips  {
+  font-size: .3466rem;
+  color: #fff;
+  font-family: 'MicrosoftYaHei';
+ }
+.download .download_right  {
+  display: flex;
+  padding-right: .5333rem;
+}
+.download .download_right .download_btn {
+  width: 2.1333rem;
+  height: .9333rem;
+  background: rgb(255, 85, 0);
+  color: #fff;
+  font-size: .4533rem;
+  font-family: 'MicrosoftYaHei';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: .4666rem;
+}
+@keyframes myfirst {
+  0% {
+      transform: translate(0px, 0px);
+  }
+  50% {
+      transform: translate(0px, -2px);
+  }
+  100% {
+      transform: translate(0px, 0px);
+  }
+}
+.wx_tipsImg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: none;
+}
+.wx_tipsImg>img {
+  width: 100%;
+  height: 100%;
+}
